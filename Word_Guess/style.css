@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
+  font-family: sans-serif;
+}
+
+#output{
+  white-space: pre;
+}
+
+.green{
+  color: black;
+  background-color: rgb(0, 255, 0);
+}
