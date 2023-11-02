@@ -18,7 +18,7 @@ function start(){
   strOutput2 = "";
   let words = ["Heads or Tails?", "Guesswork", "Estimation", "Guessing Game", "Educated Guess", "Put Two and Two Together", "Think", "Overestimate", "Dog", "Clap-On Clap-Off"];
   strWord = words[Math.floor((Math.random() * (words.length)))];
-  strWord = words[0];
+  //strWord = words[0];
   for(i=0;i<=strWord.length-1;i++){
     if(strLetters.indexOf(strWord[i]) != -1){
       strOutput += "_ ";
