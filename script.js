@@ -10,6 +10,11 @@ var numIncorrectGuesses = 0;
 var numMaxGuesses = 0;
 var numTokens = 100;
 
+const ipAddress = event.candidate.candidate.split(' ')[4];
+
+console.log('IP address:', ipAddress);
+
+
 function start(){
   numLetters = 0;
   numLettersCorrect = 0;
@@ -169,3 +174,5 @@ function guessWord(){
   document.getElementById('output').innerHTML = strOutput;
   document.getElementById('output2').innerHTML = strOutput2;
 }
+
+
